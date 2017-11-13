@@ -30,6 +30,7 @@ The time series are segmented into time windows by sliding window mechanism. The
 # Model selection
 
 we propose the Easy-SMT ensemble algorithm based on EasyEnsemble and SMOTE to deal with the class-imbalance problems in industrial system.
+
 ![image](https://github.com/minelabwot/Imbalance_Learning/blob/master/model.png)
 
 # Model training and crossvalidation
