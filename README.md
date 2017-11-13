@@ -42,13 +42,21 @@ We use the best classfier for the testing to predict the fault time.
 
 
 The detail description about code as follows:
+
 1.timewindow.py: data preprocessing and set the windows length and slide step for feature extraction.
+
 2.processing.py: transform the data into an available format for XGBoost input.
+
 3.sampling.py: random undersampling and oversampling.
+
 4.smote.py: SMOTE oversampling.
+
 5.class.py: train for class.
+
 6.score.py: train for score.
+
 7.result_class.py: the proposed model for class results.
+
 8.result_score.py: the proposed model for score results.
 
 
