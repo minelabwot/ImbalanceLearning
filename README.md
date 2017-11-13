@@ -22,16 +22,20 @@ learning and prediction pipeline consists of four parts: 1) Data preprocessing a
 Model selection and composition; 3) Model training and crossvalidation; 4) Fault prediction and result adjusting
 
 #Data preprocessing and feature extraction
+
 The time series are segmented into time windows by sliding window mechanism. The length of time window is denoted as K and sliding step as L.
 
 #Model selection
+
 we propose the Easy-SMT ensemble algorithm based on EasyEnsemble and SMOTE to deal with the class-imbalance problems in industrial system.
 
 #Model training and crossvalidation
+
 we perform a 5-fold cross validation based on XGBoost algorithm to verify the generalization performance of
 our model. Each fold of training set is used as a validation dataset, the whole cross-validation process is repeated for five times, and final values from this method are the best of these five cross-validation runs.
 
 #Fault prediction
+
 We use the best classfier for the testing to predict the fault time. 
 
 
